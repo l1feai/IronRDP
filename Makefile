@@ -1,4 +1,4 @@
-# IronRDP WASM Build for NetBird
+# IronRDP WASM Build for OneNet
 
 BUILD_DIR := build
 OUTPUT := $(BUILD_DIR)/ironrdp-pkg
@@ -49,7 +49,7 @@ clean:
 
 .PHONY: help
 help:
-	@echo "IronRDP WASM Build for NetBird"
+	@echo "IronRDP WASM Build for OneNet"
 	@echo ""
 	@echo "Available targets:"
 	@echo "  make              - Build WASM module if sources changed (default)"
